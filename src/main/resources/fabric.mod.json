@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "gadgetstorm",
+	"version": "${version}",
+	"name": "Gadgetstorm",
+	"description": "A storm of cool gadgets. Flashy lights and sounds included!",
+	"authors": [
+		"PAWN"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/gadgetstorm/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.pawn.gadgetstorm.Gadgetstorm"
+		],
+		"client": [
+			"com.pawn.gadgetstorm.GadgetstormClient"
+		],
+		"fabric-datagen": [
+			"com.pawn.gadgetstorm.GadgetstormDataGenerator"
+		]
+	},
+	"mixins": [
+		"gadgetstorm.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
