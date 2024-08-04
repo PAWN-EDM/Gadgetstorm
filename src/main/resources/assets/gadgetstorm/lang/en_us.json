@@ -1,3 +1,5 @@
 {
-  "item.gadgetstorm.t1_core": "Core (Tier 1)"
+  "item.gadgetstorm.t1_core": "Core (Tier 1)",
+
+  "itemgroup.gadget_mat": "Gadgetstorm Materials"
 }
