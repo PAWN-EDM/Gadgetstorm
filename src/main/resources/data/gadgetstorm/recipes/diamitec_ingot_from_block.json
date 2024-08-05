@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gadgetstorm:diamitec_block"
+    }
+  ],
+  "result": {
+    "item": "gadgetstorm:diamitec_ingot",
+    "count": 9
+  }
+}
