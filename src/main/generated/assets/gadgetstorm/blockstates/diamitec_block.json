@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gadgetstorm:block/diamitec_block"
+    }
+  }
+}
