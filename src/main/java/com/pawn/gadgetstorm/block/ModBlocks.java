@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block DIAMITEC_BLOCK = registerBlock("diamitec_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).mapColor(MapColor.CYAN).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).mapColor(MapColor.CYAN).sounds(BlockSoundGroup.NETHERITE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
