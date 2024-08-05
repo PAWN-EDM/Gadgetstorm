@@ -1,6 +1,7 @@
 package com.pawn.gadgetstorm.item;
 
 import com.pawn.gadgetstorm.Gadgetstorm;
+import com.pawn.gadgetstorm.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,6 +16,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.gadget_mat"))
                     .icon(() -> new ItemStack(ModItems.T1_CORE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.T1_CORE);
+
+
+                        entries.add(ModBlocks.DIAMITEC_BLOCK);
 
                     }).build());
 

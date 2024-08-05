@@ -1,5 +1,6 @@
 package com.pawn.gadgetstorm;
 
+import com.pawn.gadgetstorm.block.ModBlocks;
 import com.pawn.gadgetstorm.item.ModItemGroups;
 import com.pawn.gadgetstorm.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,6 +15,8 @@ public class Gadgetstorm implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
