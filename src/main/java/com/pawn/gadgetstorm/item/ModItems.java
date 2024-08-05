@@ -12,10 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item T1_CORE = registerItem("t1_core", new Item(new FabricItemSettings()));
-
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(T1_CORE);
-    }
+    public static final Item DIAMITEC_INGOT = registerItem("diamitec_ingot", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Gadgetstorm.MOD_ID, name), item);
@@ -23,7 +20,5 @@ public class ModItems {
 
     public static void registerModItems() {
         Gadgetstorm.LOGGER.info("Registering Mod Items For " + Gadgetstorm.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

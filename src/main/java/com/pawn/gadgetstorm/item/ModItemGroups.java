@@ -16,6 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.gadget_mat"))
                     .icon(() -> new ItemStack(ModItems.T1_CORE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.T1_CORE);
+                        entries.add(ModItems.DIAMITEC_INGOT);
 
 
                         entries.add(ModBlocks.DIAMITEC_BLOCK);
