@@ -19,5 +19,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIAMITEC_BLOCK);
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DIAMITEC_BLOCK);
+        getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
+                .add(ModBlocks.DIAMITEC_BLOCK);
     }
 }
