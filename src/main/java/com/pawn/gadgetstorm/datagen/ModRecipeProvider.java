@@ -1,5 +1,6 @@
 package com.pawn.gadgetstorm.datagen;
 
+import com.pawn.gadgetstorm.Gadgetstorm;
 import com.pawn.gadgetstorm.block.ModBlocks;
 import com.pawn.gadgetstorm.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -38,6 +39,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.COPPER_INGOT)
                 .input(Items.DIAMOND)
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DIAMITEC_INGOT)));
+                .offerTo(exporter, new Identifier(Gadgetstorm.MOD_ID,"diamitec_ingot_from_components"));
     }
 }
