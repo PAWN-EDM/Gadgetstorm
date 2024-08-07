@@ -1,8 +1,10 @@
 package com.pawn.gadgetstorm.datagen;
 
+import com.pawn.gadgetstorm.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -13,6 +15,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-
+        getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
+                .add(ModItems.DIAMITEC_INGOT);
     }
 }

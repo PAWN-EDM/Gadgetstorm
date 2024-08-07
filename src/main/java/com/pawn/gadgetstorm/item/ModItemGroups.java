@@ -23,6 +23,10 @@ public class ModItemGroups {
                         //block items
                         entries.add(ModBlocks.DIAMITEC_BLOCK);
                         entries.add(ModBlocks.VIOSTONE_BLOCK);
+                        entries.add(ModBlocks.VIOSTONE_ORE);
+                        entries.add(ModBlocks.VIOSTONE_ORE_DEEPSLATE);
+                        entries.add(ModBlocks.VIOSTONE_ORE_NETHER);
+                        entries.add(ModBlocks.VIOSTONE_ORE_END);
 
                     }).build());
 
