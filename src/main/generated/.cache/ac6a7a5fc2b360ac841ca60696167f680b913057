@@ -1,7 +1,7 @@
-// 1.20.1	2024-08-06T23:35:48.9095799	Gadgetstorm/Block Loot Tables
+// 1.20.1	2024-08-07T00:06:38.1955445	Gadgetstorm/Block Loot Tables
 f96113fe4861685c4bf8159aa0c6566a72d020a7 data\gadgetstorm\loot_tables\blocks\viostone_ore_end.json
 1719bae131ff39d0243f64f11b167f38841ceb2d data\gadgetstorm\loot_tables\blocks\viostone_ore_nether.json
-8266833c20d3ec445a28386b101d12a13d0f631c data\gadgetstorm\loot_tables\blocks\viostone_ore_deeplsate.json
+d6f3e8f8e60c9c3167bfedf1e376d12dea00bd8b data\gadgetstorm\loot_tables\blocks\viostone_ore_deepslate.json
 3b42125f43269befeb9807ea6573740469174432 data\gadgetstorm\loot_tables\blocks\viostone_block.json
 552f4fc6491d68b3daebc8a6de8d3bc50ebed71b data\gadgetstorm\loot_tables\blocks\viostone_ore.json
 46aec74d9aecac718f88936cd118f17be37e8fb4 data\gadgetstorm\loot_tables\blocks\diamitec_block.json

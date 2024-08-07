@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "gadgetstorm:block/viostone_ore_deeplsate"
-  }
-}
