@@ -18,7 +18,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).mapColor(MapColor.CYAN).sounds(BlockSoundGroup.NETHERITE)));
     public static final Block VIOSTONE_BLOCK = registerBlock("viostone_block", new Block(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).mapColor(MapColor.PURPLE)));
     public static final Block VIOSTONE_ORE = registerBlock("viostone_ore", new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-    public static final Block VIOSTONE_ORE_DEEPSLATE = registerBlock("viostone_ore_deeplsate", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final Block VIOSTONE_ORE_DEEPSLATE = registerBlock("viostone_ore_deepslate", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
     public static final Block VIOSTONE_ORE_END = registerBlock("viostone_ore_end", new Block(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(5.0f, 5.0f)));
     public static final Block VIOSTONE_ORE_NETHER = registerBlock("viostone_ore_nether", new Block(FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(3.0f, 3.0f)));
 
