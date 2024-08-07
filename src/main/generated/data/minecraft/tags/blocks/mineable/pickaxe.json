@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "gadgetstorm:diamitec_block"
+    "gadgetstorm:diamitec_block",
+    "gadgetstorm:viostone_block",
+    "gadgetstorm:viostone_ore",
+    "gadgetstorm:viostone_ore_deeplsate",
+    "gadgetstorm:viostone_ore_nether",
+    "gadgetstorm:viostone_ore_end"
   ]
 }

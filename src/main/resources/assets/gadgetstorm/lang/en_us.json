@@ -1,8 +1,14 @@
 {
   "item.gadgetstorm.t1_core": "Core (Tier 1)",
   "item.gadgetstorm.diamitec_ingot": "Diamitec Ingot",
+  "item.gadgetstorm.viostone": "Viostone",
 
   "block.gadgetstorm.diamitec_block": "Diamitec Block",
+  "block.gadgetstorm.viostone_block": "Viostone Block",
+  "block.gadgetstorm.viostone_ore": "Viostone Ore",
+  "block.gadgetstorm.viostone_ore_deepslate": "Deepslate Viostone Ore",
+  "block.gadgetstorm.viostone_ore_nether": "Nether Viostone Ore",
+  "block.gadgetstorm.viostone_ore_end": "End Viostone Ore",
 
   "itemgroup.gadget_mat": "Gadgetstorm Materials"
 }

@@ -15,11 +15,14 @@ public class ModItemGroups {
             new Identifier(Gadgetstorm.MOD_ID, "gadget_mat"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.gadget_mat"))
                     .icon(() -> new ItemStack(ModItems.T1_CORE)).entries((displayContext, entries) -> {
+                        //items
                         entries.add(ModItems.T1_CORE);
                         entries.add(ModItems.DIAMITEC_INGOT);
+                        entries.add(ModItems.VIOSTONE);
 
-
+                        //block items
                         entries.add(ModBlocks.DIAMITEC_BLOCK);
+                        entries.add(ModBlocks.VIOSTONE_BLOCK);
 
                     }).build());
 

@@ -8,19 +8,30 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
+import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
+    private static final List<ItemConvertible> VIOSTONE_ORES = List.of(ModBlocks.VIOSTONE_ORE,
+            ModBlocks.VIOSTONE_ORE_DEEPSLATE, ModBlocks.VIOSTONE_ORE_NETHER, ModBlocks.VIOSTONE_ORE_END);
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
     }
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
+
+        offerSmelting(exporter, VIOSTONE_ORES, RecipeCategory.MISC, ModItems.VIOSTONE,
+                1.0f, 200, "viostone");
+
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.VIOSTONE,
+                RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIOSTONE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.DIAMITEC_INGOT,
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIAMITEC_BLOCK);
 

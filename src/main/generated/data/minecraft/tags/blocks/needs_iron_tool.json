@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "gadgetstorm:diamitec_block"
+    "gadgetstorm:diamitec_block",
+    "gadgetstorm:viostone_ore_nether"
   ]
 }
